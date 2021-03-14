@@ -298,7 +298,7 @@ const fn = {
             return Promise.resolve();
         })
         .then(() => {
-            return API.sendToMe('健康打卡通知', desp);
+            return API.sendToMe('健康打卡成功', desp);
         })
         .catch(err => {
             desp += fn.toMarkDown(err)
