@@ -298,11 +298,11 @@ const fn = {
             return Promise.resolve();
         })
         .then(() => {
-            return API.sendToMe('郭美誉的打卡成功了', desp);
+            return API.sendToMe('罗辉鹏的打卡成功了', desp);
         })
         .catch(err => {
             desp += fn.toMarkDown(err)
-            return API.sendToMe('郭美誉的打卡出错了', desp);
+            return API.sendToMe('罗辉鹏的打卡出错了', desp);
         })
         .catch(err => {
             console.log(err);
