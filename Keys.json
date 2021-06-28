@@ -1,5 +1,5 @@
 {
-    "keys":[
+     "keys": [
         "confirm",
         "submit_time",
         "campus",
@@ -46,6 +46,10 @@
         "finally_plan_details",
         "have_go_out",
         "importantArr",
-        "familyArr"
+        "familyArr",
+        "health_code_status",
+        "in_controllerd_area",
+        "focus_area",
+        "completed_vaccination"
     ]
 }
